@@ -1,0 +1,25 @@
+.forms {
+  padding: 70px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+.forms form {
+  max-width: 400px;
+  margin: auto;
+}
+.forms input, .forms select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+.forms button {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.forms button:hover {
+  background: #218838;
+}

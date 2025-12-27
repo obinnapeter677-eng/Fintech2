@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-image: url('../img/lets\ try.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.container p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.summary-box {
+  background: #f7f9fc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: left;
+  border: 1px solid #e0e6ed;
+}
+
+.summary-box p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #fff;
+  background: orange;
+  text-decoration: none
+}
+
+.btn:hover {
+  background: teal;
+}
+
+.btn.cancel {
+  background: orange;
+}
+
+.btn.cancel:hover {
+  background: teal;
+}
